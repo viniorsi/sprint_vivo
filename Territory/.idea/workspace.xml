@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0133d347-0981-40f1-8ab7-6ecce3b8b879" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2lHysBqQG6WkkV16Byv64joFKeJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TravelControllerTest.executor": "Debug",
+    "Maven.Territory [clean].executor": "Run",
+    "Maven.Territory [install].executor": "Run",
+    "Maven.TravelEase [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.TerritoryApplication.executor": "Debug",
+    "Spring Boot.TravelEaseApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vinicius/Desktop/DockerTerritory/Territory",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vinicius\Desktop\Territory\src\main\java\com\vivo\territory\Domain\OtpVerification" />
+      <recent name="C:\Users\Vinicius\Desktop\Territory\src\main\java\com\vivo\territory\Domain" />
+      <recent name="C:\Users\Vinicius\Desktop\Territory\src\main\java\com\vivo\territory\Domain\UserVerification\Entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.viniorsi.TravelEase.Controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vivo.territory.Domain.UserVerification.DTO" />
+      <recent name="com.vivo.territory.Domain.User.Enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TerritoryApplication">
+    <configuration name="TravelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Territory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.viniorsi.TravelEase.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.viniorsi.TravelEase.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.viniorsi.TravelEase.Controller.TravelControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerritoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Territory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vivo.territory.TerritoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TravelControllerTest" />
+      <item itemvalue="Spring Boot.TerritoryApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TravelControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0133d347-0981-40f1-8ab7-6ecce3b8b879" name="Changes" comment="" />
+      <created>1724851502700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724851502700</updated>
+      <workItem from="1724851503864" duration="2718000" />
+      <workItem from="1725889389118" duration="2641000" />
+      <workItem from="1726675584062" duration="8303000" />
+      <workItem from="1726689644533" duration="1396000" />
+      <workItem from="1726691048106" duration="574000" />
+      <workItem from="1726691637715" duration="25000" />
+      <workItem from="1726701708130" duration="816000" />
+      <workItem from="1726750965872" duration="4000" />
+      <workItem from="1726751068788" duration="8782000" />
+      <workItem from="1727095612197" duration="1824000" />
+      <workItem from="1727185060996" duration="8495000" />
+      <workItem from="1727202166468" duration="3748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TravelEase$TravelControllerTest.ic" NAME="TravelControllerTest Coverage Results" MODIFIED="1725891802319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.viniorsi.TravelEase.Controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>

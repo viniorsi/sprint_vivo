@@ -1,0 +1,38 @@
+# app-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp
+spec:
+  selector:
+    matchLabels:
+      app: myapp
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: myapp
+        image: territory-deployment
+        ports:
+        - containerPort: 8080
+        env:
+        - name: SPRING_DATASOURCE_URL
+          value: jdbc:mysql://mysql:3306/territory?useSSL=false&serverTimezone=UTC
+        - name: SPRING_DATASOURCE_USERNAME
+          value: usuario
+        - name: SPRING_DATASOURCE_PASSWORD
+          value: senha123
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: myapp
