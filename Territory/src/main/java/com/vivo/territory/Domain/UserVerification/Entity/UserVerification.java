@@ -7,7 +7,7 @@ import lombok.*;
 import java.time.LocalDateTime;
 import java.util.Random;
 
-@Table(name = "usersverification")
+@Table(name = "users_verification")
 @Entity(name = "UserVerification")
 @Getter
 @Setter

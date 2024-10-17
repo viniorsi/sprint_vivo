@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+      - name: app
+        image: viniorsi/territory:latest
+        env:
+        - name: SPRING_DATASOURCE_URL
+          value: jdbc:mysql://mysql:3306/territory
+        - name: SPRING_DATASOURCE_USERNAME
+          value: root
+        - name: SPRING_DATASOURCE_PASSWORD
+          value: root
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: "50m"  # Solicitação mínima de CPU
+            memory: "128Mi"  # Solicitação mínima de memória
+          limits:
+            cpu: "250m"  # Limite máximo de CPU
+            memory: "512Mi"  # Limite máximo de memória

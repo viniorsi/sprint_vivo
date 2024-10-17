@@ -7,7 +7,7 @@ import lombok.*;
 import java.time.LocalDateTime;
 import java.util.Random;
 
-@Table(name = "optcodeverifications")
+@Table(name = "opt_code_verifications")
 @Entity(name = "OptVerification")
 @Getter
 @Setter
