@@ -1,7 +1,7 @@
 package com.vivo.territory.Domain.UserProduct.DTO;
 
 public record DTOUserProduct(
-        long user_id,
+        String cpf,
         long product_id
 ) {
 }

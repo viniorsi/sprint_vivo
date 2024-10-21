@@ -6,7 +6,6 @@ import com.vivo.territory.Domain.UserVerification.Entity.UserVerification;
 import java.time.LocalDate;
 
 public record DTOUserDetails(
-
         String name,
         String email,
         String cpf,
@@ -28,6 +27,10 @@ public record DTOUserDetails(
                 user.getStatus().getDescricao(),
                 userVerification.getVerificationCode());
     }
+
+
+
+
 
 
 

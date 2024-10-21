@@ -1,6 +1,7 @@
 package com.vivo.territory.Service.User;
 
 import com.vivo.territory.Domain.Email.EmailMessage;
+import com.vivo.territory.Domain.User.DTO.DTOUserCompleteDetails;
 import com.vivo.territory.Domain.User.DTO.DTOUserDetails;
 import com.vivo.territory.Domain.User.DTO.DTOUserRegister;
 import com.vivo.territory.Domain.User.Entity.User;
@@ -53,6 +54,17 @@ public class UserRegisterService {
             return new DTOUserDetails(user, userVerification);
         } else {
             throw new Exception("Usuario ja existente");
+        }
+    }
+
+    public DTOUserCompleteDetails returnUser(String cpf) throws Exception {
+        try {
+
+            User user = userRepository.getReferenceByCpf(cpf);
+            return new DTOUserCompleteDetails(user);
+
+        } catch (RuntimeException e) {
+            throw new RuntimeException("erro ao procurar usuario" + e.getMessage());
         }
     }
 

@@ -22,7 +22,7 @@ public class TokenService {
         try {
             var algorithm = Algorithm.HMAC256(secret);
             return JWT.create()
-                    .withIssuer("API TravelEase")
+                    .withIssuer("API VIVO")
                     .withSubject(user.getCpf())
                     .withExpiresAt(expirationDate())
                     .sign(algorithm);

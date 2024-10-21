@@ -11,8 +11,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserProductRepository extends JpaRepository<UserProduct, Long> {
 
-@Query("Select up from User_Product up where up.user.id=:id_user and up.product.id=:id_product")
-UserProduct findUserProduct(@Param("id_product") Long productId, @Param("id_user") Long userId);
+@Query("Select up from User_Product up where up.user.cpf=:cpf and up.product.id=:id_product")
+UserProduct findUserProduct(@Param("id_product") Long productId, @Param("cpf") String cpf);
 
     Page<UserProduct> findAllByUser_Id(Long userId, Pageable pageable);
 

@@ -1,6 +1,7 @@
 package com.vivo.territory.Controller;
 
 import com.vivo.territory.Domain.Products.DTO.ProductsDTO;
+import com.vivo.territory.Domain.User.DTO.DTOUserCpf;
 import com.vivo.territory.Domain.User.DTO.DTOUserRegister;
 import com.vivo.territory.Domain.User.Entity.User;
 import com.vivo.territory.Domain.UserProduct.DTO.DTOUserProduct;
@@ -66,6 +67,18 @@ public class UserController {
     public ResponseEntity getProduct(@RequestBody @Valid DTOUserProduct dtoUserProduct) {
         try {
             var userDetails = userProductService.addProductToUser(dtoUserProduct);
+            return ResponseEntity.ok(userDetails);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+
+    }
+
+    @GetMapping("/getUser")
+    @Transactional
+    public ResponseEntity getUser(@RequestBody @Valid DTOUserCpf cpf) {
+        try {
+            var userDetails = userRegisterService.returnUser(cpf.cpf());
             return ResponseEntity.ok(userDetails);
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());

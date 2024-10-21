@@ -31,11 +31,11 @@ public class UserProductService {
 
     public String addProductToUser(@Valid DTOUserProduct userProduct) throws Exception {
 
-        var userHave = userProductRepository.findUserProduct(userProduct.product_id(),userProduct.user_id());
+        var userHave = userProductRepository.findUserProduct(userProduct.product_id(),userProduct.cpf());
 
         if (userHave == null) {
 
-            User user = userRespository.findById(userProduct.user_id()).orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
+            User user = userRespository.getReferenceByCpf(userProduct.cpf());
 
             Product product = productRepository.findById(userProduct.product_id()).orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
 
@@ -63,4 +63,6 @@ public class UserProductService {
 
 
     }
+
+
 }

@@ -10,7 +10,8 @@ public record DTOUserProductDetails(
         String product_name,
         String description,
         boolean status,
-        LocalDateTime dt_contratacao
+        LocalDateTime dt_contratacao,
+        Double price
 ) {
 
     public DTOUserProductDetails(UserProduct userProduct) {
@@ -19,7 +20,8 @@ public record DTOUserProductDetails(
                 userProduct.getProduct().getName(),
                 userProduct.getProduct().getDescription(),
                 userProduct.isStatus(),
-                userProduct.getData_contratacao());
+                userProduct.getData_contratacao(),
+                userProduct.getProduct().getPrice());
 
 
     }

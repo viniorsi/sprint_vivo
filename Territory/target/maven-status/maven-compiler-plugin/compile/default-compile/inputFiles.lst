@@ -10,6 +10,8 @@ C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\Products\DTO\ProductsDTO.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\Products\Entity\Product.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\Products\Repository\ProductRepository.java
+C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\User\DTO\DTOUserCompleteDetails.java
+C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\User\DTO\DTOUserCpf.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\User\DTO\DTOUserDetails.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\User\DTO\DTOUserLogin.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\User\DTO\DTOUserRegister.java
