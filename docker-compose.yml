@@ -1,11 +1,21 @@
 version: '3.8'
 services:
+  frontend:
+    image: frontend_angular:latest
+    container_name: angular_frontend
+    ports:
+      - '30001:80'
+    environment:
+      - API_URL=http://appTerritory:8080
+    networks:
+      - redeTeste
+
   mysql:
     image: mysql:8.0-debian
     container_name: mysqlTerritory
     environment:
-      MYSQL_ROOT_PASSWORD: root   # Define a senha do usuário root
-      MYSQL_DATABASE: territory 
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: territory
     ports:
       - "3307:3306"
     networks:
@@ -17,7 +27,7 @@ services:
       retries: 5
 
   app:
-    image: territory:latest # substitua com o nome correto da sua imagem, se necessário
+    image: territory:v2  # substitua com o nome correto da sua imagem, se necessário
     container_name: appTerritory
     depends_on:
       - mysql
@@ -27,9 +37,10 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysqlTerritory:3306/territory
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
+      CORS_URL: http://localhost:30001
     networks:
       - redeTeste
-    restart: on-failure # reinicia o container se ele falhar
+    restart: on-failure
 
 networks:
   redeTeste:

@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0133d347-0981-40f1-8ab7-6ecce3b8b879" name="Changes" comment="atualizando">
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/DTO/DTOUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/DTO/DTOUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/Repository/UserRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/Repository/UserRespository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProductDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/Repository/UserProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/Repository/UserProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/Security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/Security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/Security/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/Security/TokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/User/UserRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/User/UserRegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/UserProduct/UserProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/UserProduct/UserProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/Security/SecurityConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/Security/SecurityConfigurations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kubernetes/territory-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../kubernetes/territory-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +31,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="package-info" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,37 +71,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.TravelControllerTest.executor": "Debug",
-    "Maven.Territory [clean].executor": "Run",
-    "Maven.Territory [install].executor": "Run",
-    "Maven.Territory [package].executor": "Run",
-    "Maven.TravelEase [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.TerritoryApplication.executor": "Debug",
-    "Spring Boot.TravelEaseApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vinicius/Desktop/Java/DockerTerritory/Territory",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.TravelControllerTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.Territory [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Territory [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Territory [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.TravelEase [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TerritoryApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.TravelEaseApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vinicius/Desktop/Java/DockerTerritory/Territory&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vinicius\Desktop\Territory\src\main\java\com\vivo\territory\Domain\OtpVerification" />
@@ -190,6 +189,8 @@
       <workItem from="1729520894131" duration="1130000" />
       <workItem from="1729524437723" duration="1264000" />
       <workItem from="1729535471855" duration="2429000" />
+      <workItem from="1729542131847" duration="1479000" />
+      <workItem from="1729617795345" duration="13221000" />
     </task>
     <task id="LOCAL-00001" summary="atualizando">
       <option name="closed" value="true" />

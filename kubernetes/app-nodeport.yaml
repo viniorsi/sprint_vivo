@@ -3,11 +3,12 @@ kind: Service
 metadata:
   name: app-nodeport
 spec:
-  type: NodePort  # Mantenha o tipo NodePort
+  type: NodePort
   selector:
-    app: app  # Certifique-se de que o seletor corresponda ao seu Deployment
+    app: app
   ports:
-    - protocol: TCP
+    - name: http  # Nome da porta
+      protocol: TCP
       port: 8080
       targetPort: 8080
-      nodePort: 30001  # Escolha uma porta entre 30000-32767
+      nodePort: 30001

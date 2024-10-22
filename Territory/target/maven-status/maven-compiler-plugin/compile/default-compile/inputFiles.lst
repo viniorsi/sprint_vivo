@@ -1,4 +1,5 @@
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Controller\LoginController.java
+C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Controller\MetricsController.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Controller\ProductsController.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Controller\UserController.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\Email\EmailMessage.java
@@ -27,6 +28,7 @@ C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\UserVerification\Entity\UserVerification.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Domain\UserVerification\Repository\UserVerificationRepository.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Infra\Exception\Errortreatment.java
+C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Infra\metrics\MetricsConfig.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Infra\RabbiMq\RabbitMQConfig.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Infra\Security\DTOTokenJWT.java
 C:\Users\Vinicius\Desktop\sprint_vivo\Territory\src\main\java\com\vivo\territory\Infra\Security\SecurityConfigurations.java

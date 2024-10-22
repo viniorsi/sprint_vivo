@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: app-monitor
+  labels:
+    app: app
+spec:
+  selector:
+    matchLabels:
+      app: app
+  endpoints:
+    - port: http  # Deve corresponder ao nome da porta no Service
+      path: /actuator/prometheus
+      interval: 20s

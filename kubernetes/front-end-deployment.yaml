@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: front-vivo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: viniorsi/vivo_front:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: API_URL
+          value: "http://app-nodeport:8080" # Define a variável de ambiente

@@ -74,7 +74,7 @@ public class UserController {
 
     }
 
-    @GetMapping("/getUser")
+    @PostMapping("/getUser")
     @Transactional
     public ResponseEntity getUser(@RequestBody @Valid DTOUserCpf cpf) {
         try {
