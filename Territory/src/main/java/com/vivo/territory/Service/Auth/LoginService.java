@@ -8,8 +8,6 @@ import com.vivo.territory.Domain.User.Entity.User;
 import com.vivo.territory.Domain.User.Enums.StatusEnum;
 import com.vivo.territory.Domain.User.Repository.UserRespository;
 import com.vivo.territory.Domain.UserVerification.DTO.DTOUserVerificationStatusRequest;
-import com.vivo.territory.Domain.UserVerification.Entity.UserVerification;
-import com.vivo.territory.Domain.UserVerification.Repository.UserVerificationRepository;
 import com.vivo.territory.Infra.Exception.Errortreatment;
 import com.vivo.territory.Infra.Security.DTOTokenJWT;
 import com.vivo.territory.Infra.Security.TokenService;
@@ -20,9 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.stereotype.Service;
-
-import java.util.Arrays;
-import java.util.List;
 
 @Service
 public class LoginService {

@@ -2,8 +2,8 @@ package com.vivo.territory.Service.User;
 
 import com.vivo.territory.Domain.User.Entity.User;
 import com.vivo.territory.Domain.User.Enums.StatusEnum;
-import com.vivo.territory.Domain.UserVerification.Entity.UserVerification;
 import com.vivo.territory.Domain.User.Repository.UserRespository;
+import com.vivo.territory.Domain.UserVerification.Entity.UserVerification;
 import com.vivo.territory.Domain.UserVerification.Repository.UserVerificationRepository;
 import com.vivo.territory.Utils.EncryptDecrypt;
 import org.springframework.beans.factory.annotation.Autowired;

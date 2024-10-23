@@ -4,6 +4,7 @@ package com.vivo.territory.Domain.OtpVerification.Entity;
 import com.vivo.territory.Domain.User.Entity.User;
 import jakarta.persistence.*;
 import lombok.*;
+
 import java.time.LocalDateTime;
 import java.util.Random;
 

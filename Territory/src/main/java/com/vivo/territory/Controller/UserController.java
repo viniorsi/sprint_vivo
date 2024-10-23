@@ -1,6 +1,5 @@
 package com.vivo.territory.Controller;
 
-import com.vivo.territory.Domain.Products.DTO.ProductsDTO;
 import com.vivo.territory.Domain.User.DTO.DTOUserCpf;
 import com.vivo.territory.Domain.User.DTO.DTOUserRegister;
 import com.vivo.territory.Domain.User.Entity.User;

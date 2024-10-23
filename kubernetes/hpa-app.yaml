@@ -9,4 +9,4 @@ spec:
     name: app  # Nome do seu Deployment
   minReplicas: 1
   maxReplicas: 10  # Número máximo de réplicas
-  targetCPUUtilizationPercentage: 50  # A utilização de CPU alvo
+  targetCPUUtilizationPercentage: 15  # A utilização de CPU alvo

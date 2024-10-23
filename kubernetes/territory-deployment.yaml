@@ -23,7 +23,7 @@ spec:
         - name: SPRING_DATASOURCE_PASSWORD
           value: root
         - name: CORS_URL
-          value: http://localhost:30001  
+          value: http://localhost:30003  
         ports:
         - containerPort: 8080
         resources:

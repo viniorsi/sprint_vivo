@@ -6,21 +6,67 @@
   <component name="ChangeListManager">
     <list default="true" id="0133d347-0981-40f1-8ab7-6ecce3b8b879" name="Changes" comment="atualizando">
       <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/MetricsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/ProductsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/Email/EmailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/Email/EmailMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/OtpVerification/Entity/OtpVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/OtpVerification/Entity/OtpVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/OtpVerification/Repository/OtpVerificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/OtpVerification/Repository/OtpVerificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/DTO/DTOUserRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/DTO/DTOUserRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/Repository/UserRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/User/Repository/UserRespository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserVerification/Entity/UserVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Domain/UserVerification/Entity/UserVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/Security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/Security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Infra/metrics/MetricsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/Auth/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/Auth/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/Email/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/Email/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/User/UserRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/User/UserRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/User/UserVerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/User/UserVerificationCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/UserProduct/UserProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Service/UserProduct/UserProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/TerritoryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/TerritoryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Utils/EncryptDecrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivo/territory/Utils/EncryptDecrypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Territory-0.0.2-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/MetricsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/ProductsController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/Email/EmailMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/Email/EmailMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/Html/Domain/HtmlTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/Html/Domain/HtmlTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/OtpVerification/Entity/OtpVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/OtpVerification/Entity/OtpVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/Products/Entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/Products/Entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/User/DTO/DTOUserRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/User/DTO/DTOUserRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/User/Entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/User/Entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProductDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/UserProduct/DTO/DTOUserProductDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/UserProduct/Entity/UserProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/UserProduct/Entity/UserProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/UserVerification/Entity/UserVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Domain/UserVerification/Entity/UserVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/Security/SecurityConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/Security/SecurityConfigurations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Infra/metrics/MetricsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/Auth/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/Auth/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/Email/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/Email/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/User/UserRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/User/UserRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/UserProduct/UserProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Service/UserProduct/UserProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vivo/territory/Utils/EncryptDecrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vivo/territory/Utils/EncryptDecrypt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kubernetes/app-nodeport.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../kubernetes/app-nodeport.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kubernetes/custom-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../kubernetes/custom-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kubernetes/prometheus-server-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../kubernetes/prometheus-server-svc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kubernetes/service-monitor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../kubernetes/service-monitor.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kubernetes/territory-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../kubernetes/territory-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../svc-mysql-loadbalancer.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +124,7 @@
     &quot;Maven.Territory [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Territory [package].executor&quot;: &quot;Run&quot;,
     &quot;Maven.TravelEase [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.territory [install].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -89,7 +136,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vinicius/Desktop/Java/DockerTerritory/Territory&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vinicius/Desktop/sprint_vivo/territory&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -137,7 +184,7 @@
     </configuration>
     <configuration name="TerritoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="Territory" />
+      <module name="territory" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vivo.territory.TerritoryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,7 +237,12 @@
       <workItem from="1729524437723" duration="1264000" />
       <workItem from="1729535471855" duration="2429000" />
       <workItem from="1729542131847" duration="1479000" />
-      <workItem from="1729617795345" duration="13221000" />
+      <workItem from="1729617795345" duration="16268000" />
+      <workItem from="1729653601382" duration="799000" />
+      <workItem from="1729688329015" duration="1247000" />
+      <workItem from="1729689615487" duration="1056000" />
+      <workItem from="1729693438485" duration="127000" />
+      <workItem from="1729708039190" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="atualizando">
       <option name="closed" value="true" />

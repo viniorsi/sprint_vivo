@@ -1,6 +1,5 @@
 package com.vivo.territory.Service.UserProduct;
 
-import com.vivo.territory.Domain.Products.DTO.ProductsDTO;
 import com.vivo.territory.Domain.Products.Entity.Product;
 import com.vivo.territory.Domain.Products.Repository.ProductRepository;
 import com.vivo.territory.Domain.User.Entity.User;
